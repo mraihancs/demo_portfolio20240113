@@ -1,0 +1,191 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    
+
+
+}
+
+
+
+nav{
+    display: flex;
+     justify-content: space-between; 
+    align-items: center;
+    margin: 0px 200px;
+   
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    padding-left:40px;
+}
+
+nav li a{
+    text-decoration: none;
+   }
+
+span{
+    color:orange;
+}
+
+.btn-primary{
+    background-color: orangered;
+    border: 0px;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic{
+    width: 600px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+}
+
+.banner-title{
+    font-size: 80px;
+    font-weight: 700px;
+    margin-top: 5px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+/* Main Section Styles */
+
+
+
+
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 100px 0px;
+}
+
+
+.section-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.section-description{
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#what-i-do-desc{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display: flex;
+    gap:24px;
+    
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.6);
+    
+    }
+
+    .resume-container{
+        display: flex;
+        gap: 10px;
+        
+    }
+
+    .download-cv{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        background-color: #FFF8F3;
+        padding: 150px 260px;
+        gap: 20%;
+        margin-top: 5%;
+        
+    }
+
+   
+
+    .footer-column{
+        width: 50%;
+    }
+
+label{
+    display: block;
+    padding: 10px;
+   
+}
+
+.input-name{
+    height: 40px;
+    width: 80%;
+    border: 0px;
+}
+   
+.input-email{
+    height: 40px;
+    width: 80%;
+    border: 0px;
+}
+
+.input-tarea{
+    height: 60px;
+    width: 80%;
+    border: 0px;
+
+}
